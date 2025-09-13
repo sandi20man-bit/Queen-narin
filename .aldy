@@ -1,0 +1,32 @@
+# Konfigurasi Bot Telegram Absensi Harian
+# ===========================================
+# 
+# Petunjuk Pengisian:
+# 1. BOT_TOKEN: Dapatkan dari @BotFather di Telegram
+# 2. CHAT_ID: ID grup/channel tempat bot mengirim pesan 
+# 3. TIMEZONE: Zona waktu untuk scheduler (default: Asia/Jakarta)
+
+# Token Bot Telegram (wajib diisi)
+BOT_TOKEN=8288833420:AAEMWdn8W9sTxMSgZprBo-lSYTzJ5kq3_OE
+
+# Chat ID grup/channel target (wajib diisi)  
+CHAT_ID=-1002320758832
+
+# Timezone untuk scheduler absensi
+TIMEZONE=Asia/Jakarta
+
+# ElevenLabs API Key untuk suara wanita berkualitas tinggi (opsional)
+# Dapatkan dari: https://elevenlabs.io → Settings → API Keys
+# Free tier: 10K karakter per bulan
+ELEVENLABS_API_KEY=sk_ef47d49205670f8c3e5151bef718f7f69b74adf3f9cc832a
+
+# ElevenLabs Voice ID untuk suara wanita pilihan Anda (opsional)
+# Contoh: Bella = EXAVITQu4vr4xnSDxMaL, Rachel = 21m00Tcm4TlvDq8ikWAM
+ELEVENLABS_VOICE_ID=gmnazjXOFoOcWA59sd5m
+
+# ElevenLabs API Key Cadangan (backup) - Opsional
+# Akan digunakan otomatis jika API key utama habis quota atau error
+ELEVENLABS_API_KEY_BACKUP=sk_322976ef23795d9b59f1ed8ea56ff83114bf51be4fb8a52b
+# ElevenLabs API Key Cadangan 2 (backup 2) - Opsional
+# Cadangan tambahan jika backup pertama juga gagal
+ELEVENLABS_API_KEY_BACKUP2=sk_7709e0208818ec123663044a7f0f68c597a38ce151d17840

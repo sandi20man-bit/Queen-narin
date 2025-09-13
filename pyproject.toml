@@ -1,0 +1,12 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "apscheduler>=3.11.0",
+    "python-dotenv>=1.1.1",
+    "python-telegram-bot==20.3",
+    "pytz>=2025.2",
+    "pyttsx3>=2.90",
+]
